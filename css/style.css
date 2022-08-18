@@ -7,3 +7,60 @@
 .animate__fadeInUp{
     animation-duration: 3s;
 }
+
+.animate__backInUp{
+    animation-duration: 1s;
+}
+
+.header{
+    height: 30vh;
+    background: linear-gradient(90deg , black, white);
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.header h1, .header ul{
+    padding: 30px;
+    font-family: sans-serif;
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    justify-content: center;
+}
+
+.header button:hover{
+    background-color: darkslateblue;
+    color: aquamarine;
+    transition-duration: 0.3s;
+}
+
+.header li{
+    margin: 15px;
+}
+
+.main{
+    color: lavender;
+    height: 70vh;
+    background: linear-gradient(180deg, blue, grey);
+}
+
+.main p:hover{
+    background-color: rgb(246, 25, 176);
+    color: rgb(51, 17, 75);
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.65s;
+}
+
+.main div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;
+}
+
+.main img:hover{
+    display: flex;
+    padding: 30px;
+    transform: rotate(25deg);
+    transition-duration: 3s;
+}
