@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.animate__fadeInUp{
+    animation-duration: 3s;
+}
